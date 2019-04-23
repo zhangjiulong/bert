@@ -1,5 +1,11 @@
 # BERT
 
+**\*\*\*\*\* New February 7th, 2019: TfHub Module \*\*\*\*\***
+
+BERT has been uploaded to [TensorFlow Hub](https://tfhub.dev). See
+`run_classifier_with_tfhub.py` for an example of how to use the TF Hub module, 
+or run an example in the browser on [Colab](https://colab.sandbox.google.com/github/google-research/bert/blob/master/predicting_movie_reviews_with_bert_on_tf_hub.ipynb).
+
 **\*\*\*\*\* New November 23rd, 2018: Un-normalized multilingual model + Thai +
 Mongolian \*\*\*\*\***
 
@@ -38,8 +44,9 @@ repository.
 
 We have made two new BERT models available:
 
-*   **[`BERT-Base, Multilingual`](https://storage.googleapis.com/bert_models/2018_11_03/multilingual_L-12_H-768_A-12.zip)**:
-    102 languages, 12-layer, 768-hidden, 12-heads, 110M parameters
+*   **[`BERT-Base, Multilingual`](https://storage.googleapis.com/bert_models/2018_11_03/multilingual_L-12_H-768_A-12.zip)
+    (Not recommended, use `Multilingual Cased` instead)**: 102 languages,
+    12-layer, 768-hidden, 12-heads, 110M parameters
 *   **[`BERT-Base, Chinese`](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)**:
     Chinese Simplified and Traditional, 12-layer, 768-hidden, 12-heads, 110M
     parameters
@@ -228,8 +235,9 @@ The links to the models are here (right-click, 'Save link as...' on the name):
     24-layer, 1024-hidden, 16-heads, 340M parameters
 *   **[`BERT-Base, Multilingual Cased (New, recommended)`](https://storage.googleapis.com/bert_models/2018_11_23/multi_cased_L-12_H-768_A-12.zip)**:
     104 languages, 12-layer, 768-hidden, 12-heads, 110M parameters
-*   **[`BERT-Base, Multilingual Uncased (Orig, not recommended)`](https://storage.googleapis.com/bert_models/2018_11_03/multilingual_L-12_H-768_A-12.zip)**:
-    102 languages, 12-layer, 768-hidden, 12-heads, 110M parameters
+*   **[`BERT-Base, Multilingual Uncased (Orig, not recommended)`](https://storage.googleapis.com/bert_models/2018_11_03/multilingual_L-12_H-768_A-12.zip)
+    (Not recommended, use `Multilingual Cased` instead)**: 102 languages,
+    12-layer, 768-hidden, 12-heads, 110M parameters
 *   **[`BERT-Base, Chinese`](https://storage.googleapis.com/bert_models/2018_11_03/chinese_L-12_H-768_A-12.zip)**:
     Chinese Simplified and Traditional, 12-layer, 768-hidden, 12-heads, 110M
     parameters
